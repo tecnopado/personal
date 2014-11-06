@@ -1,0 +1,11 @@
+##
+## Arch Linux repository mirrorlist
+## Sorted by mirror score from mirror status page
+## Generated on 2014-08-19
+##
+
+## Score: 1.0, Italy
+Server = http://archlinux.openlabto.org/archlinux/$repo/os/$arch
+## Score: 3.8, Italy
+Server = http://mirrors.prometeus.net/archlinux/$repo/os/$arch
+
