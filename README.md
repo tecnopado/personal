@@ -1,3 +1,3 @@
-various config for personal use
+various config stored here for backup.
 
-config
+
