@@ -1,0 +1,25 @@
+# 
+# /etc/fstab:accessibile via bash alias "fstab"
+#
+# <file system>	<dir>	<type>	<options>	<dump>	<pass>
+# /dev/sda2 LABEL=root
+UUID=c05336f6-bf48-4bd2-95f5-492609c11cad	/         	btrfs	rw,noatime,ssd_spread,discard,compress=lzo,space_cache,inode_cache	0 0
+
+# /dev/sda3 LABEL=home
+UUID=1b35b15c-9cd5-46ff-b244-10e5d5fa563d	/home     	btrfs	rw,noatime,ssd_spread,discard,compress=lzo,space_cache,inode_cache	0 0
+
+# /dev/sdb1 LABEL=swap
+#UUID=ef69331e-64a4-42b4-b282-35b4892b8cc1
+#/dev/sdb1	none      	swap	defaults,nofail	0 0
+/dev/sdb4	/run/media/simone/compilazioni		btrfs	defaults,nofail	0 0
+/dev/sdb2	/run/media/simone/musica	btrfs	defaults,nofail	0 0 
+/dev/sdb3	/run/media/simone/vario/		btrfs	defaults,nofail 0 0
+tmpfs	/tmp	tmpfs	nodev,nosuid,noatime,size=1000M,mode=1777	0 0
+tmpfs	/home/simone/.mozilla/firefox/default/Cache tmpfs mode=1777,noatime	0 0
+
+
+tmpfs	/var/spool	tmpfs defaults,noatime,mode=1777 0 0
+
+tmpfs	/var/log	tmpfs defaults,noatime,mode=0755 0 0
+
+tmpfs	/var/tmp	tmpfs defaults,noatime,mode=1777 0 0
