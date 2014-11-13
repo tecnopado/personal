@@ -1,4 +1,4 @@
-## pacman -Qqe > package_list.txt ##
+## pacman -Qqe > lista-pacchetti.txt ##
 abs
 alsa-plugins
 alsa-utils
