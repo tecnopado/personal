@@ -25,4 +25,3 @@
     set ls=2
     " colorscheme
     colorscheme molokai
-    
