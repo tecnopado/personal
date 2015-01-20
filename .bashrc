@@ -17,8 +17,8 @@ _isroot=false
 
     [[ -f $HOME/.dircolors_256 ]] && eval $(dircolors -b $HOME/.dircolors_256)
 
-    export TERM='xterm-256color'
-    export HOST='ArchSpireOne'
+    export TERM='rxvt-unicode-256color'
+    export HOST='tecnopado'
 
      B='\[\e[1;38;5;33m\]'
     LB='\[\e[1;38;5;81m\]'
