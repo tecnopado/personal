@@ -113,7 +113,6 @@ _isroot=false
     }
 
     export PS1="$GY$Y\u$GY\[\033[0m\033[0;32m\]@$P\h$GY:$B\W$LB\$(get_git_info)$GY
-      \[\033[0m\033[0;32m\]  └─\[\033[0m\033[0;32m\]▶\[\033[0$GY$Y\u$GY\[\033[0m\033[0;32m\]@$P\h$GY:$B\W$LB\$(get_git_info)$GY
       \[\033[0m\033[0;32m\]  └─\[\033[0m\033[0;32m\]▶\[\033[0m\]m\]  "
   else
     export TERM='xterm-color'
