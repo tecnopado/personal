@@ -31,7 +31,7 @@ if [ -d /etc/X11/xinit/xinitrc.d ]; then
                                         fi
                                        
          # qui il topo di default
-   session=${1:-xfce}
+   session=${1:-openbox}
                                        
   case $session in
 kde|openbox    ) exec openbox-kde-session;;
